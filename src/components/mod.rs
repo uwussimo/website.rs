@@ -1,5 +1,5 @@
-mod hero;
-pub use hero::Hero;
+mod article_list;
+mod layout;
 
-mod echo;
-pub use echo::Echo;
+pub use article_list::ArticleList;
+pub use layout::Layout;
