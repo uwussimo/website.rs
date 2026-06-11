@@ -9,10 +9,23 @@
     background: #ffffff;
 }
 
+html {
+    min-height: 100%;
+    background: #ffffff;
+    overscroll-behavior-y: none;
+}
+
 body {
+    min-height: 100%;
     margin: 0;
     background: #ffffff;
     color: #171717;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}
+
+#main {
+    min-height: 100dvh;
 }
 
 a {
@@ -32,10 +45,11 @@ a {
     --button-secondary-text: #252525;
     --button-secondary-border: #dddddd;
 
-    min-height: 100vh;
+    min-height: 100dvh;
     background: var(--bg);
     color: var(--text);
     transition: background-color 180ms ease, color 180ms ease;
+    overflow-x: hidden;
 }
 
 .page.dark {
